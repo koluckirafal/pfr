@@ -92,6 +92,7 @@ async fn run(args: Args) {
             .with_min_inner_size(PhysicalSize::new(dims.0, dims.1))
             .with_inner_size(PhysicalSize::new(dims.0, dims.1))
             .with_resizable(true)
+            .with_fullscreen(Some(Fullscreen::Borderless(None),))
             .build(&event_loop)
             .expect("WindowBuilder error");
     window.set_cursor_visible(false);

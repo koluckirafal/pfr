@@ -70,7 +70,7 @@ impl Default for Options {
             balls: 3,
             angle_high: true,
             scroll_speed: ScrollSpeed::Medium,
-            resolution: Resolution::Normal,
+            resolution: Resolution::Full,
             no_music: false,
             mono: false,
         }
